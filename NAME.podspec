@@ -19,7 +19,7 @@ Description of the module
   s.author           = { '${USER_NAME}' => '${USER_EMAIL}' }
   s.source           = { :git => 'https://www.new-gravity.com', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = '${POD_NAME}/Module/**/*.{swift}'
   s.resources = "${POD_NAME}/Module/**/*.{xcassets,json,storyboard,xib,xcdatamodeld,strings,lproj}"
