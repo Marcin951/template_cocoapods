@@ -23,8 +23,8 @@ Description of the module
 
   s.source_files = '${POD_NAME}/Module/**/*.{swift}'
   s.resources = "${POD_NAME}/Module/**/*.{xcassets,json,storyboard,xib,xcdatamodeld,strings,lproj}"
+  
 #  s.dependency 'RxSwift'
-
   
   s.test_spec 'Tests' do |test_spec|
       test_spec.source_files = '${POD_NAME}/Tests/**/*.{swift}'
