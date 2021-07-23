@@ -29,5 +29,9 @@ Description of the module
   s.test_spec 'Tests' do |test_spec|
       test_spec.source_files = '${POD_NAME}/Tests/**/*.{swift}'
 #      test_spec.dependency 'RxTest'
+#      test_spec.dependency 'Quick'
+#      test_spec.dependency 'Nimble'
+#      test_spec.dependency 'RxSwift'
+#      test_spec.dependency 'Resolver'
   end
 end
