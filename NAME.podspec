@@ -16,7 +16,7 @@ Description of the module
 
   s.homepage         = 'https://www.new-gravity.com'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '${USER_NAME}' => '${USER_EMAIL}' }
+  s.author           = { 'New Gravity' => 'codesign.ios@new-gravity.com' }
   s.source           = { :git => 'https://www.new-gravity.com', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
@@ -28,10 +28,7 @@ Description of the module
   
   s.test_spec 'Tests' do |test_spec|
       test_spec.source_files = '${POD_NAME}/Tests/**/*.{swift}'
-#      test_spec.dependency 'RxTest'
 #      test_spec.dependency 'Quick'
 #      test_spec.dependency 'Nimble'
-#      test_spec.dependency 'RxSwift'
-#      test_spec.dependency 'Resolver'
   end
 end
