@@ -16,7 +16,7 @@ pod '${POD_NAME}'
 
 ## Author
 
-${USER_NAME}, ${USER_EMAIL}
+New Gravity, codesign.ios@new-gravity.com
 
 ## License
 
